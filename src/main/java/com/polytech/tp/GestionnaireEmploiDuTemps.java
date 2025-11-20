@@ -36,8 +36,8 @@ public class GestionnaireEmploiDuTemps implements Subject{
         notifyObservers("Un cours a été modifié : " + cours.getDescription());
     }
 
-    public void setChangement(String string) {
+    public void setChangement(String changement) {
         // TODO Auto-generated method stub
-        notifyObservers("Changement global : " + string);
+        notifyObservers(changement);
     }
 }
