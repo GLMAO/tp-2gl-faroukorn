@@ -3,7 +3,7 @@ package com.polytech.tp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GestionnaireEmploiDuTemps {
+public class GestionnaireEmploiDuTemps{
     private List<ICours> listeCours = new ArrayList<>();
 
     public void ajouterCours(ICours cours) {
